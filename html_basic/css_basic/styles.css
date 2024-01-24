@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  background-color: grey;
+  color: wheat;
+}
+
+article{
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside{
+  flex: 1;
+  overflow-y: auto;
+  p{
+    font-style: italic;
+  }
+}
+
+p{
+  color: black;
+}
+
+a{
+  font-family: Arial;
+  color: wheat;
+  font-style: italic;
+}
+
+footer{
+  color: wheat;
+}
